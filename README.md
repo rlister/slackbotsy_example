@@ -10,7 +10,7 @@ with your new ruby bot.
 ## Install
 
 ```sh
-$ git clone https://github.com/rlister/slackbotsy.git
+$ git clone https://github.com/rlister/slackbotsy_example.git
 $ bundle install
 ```
 
