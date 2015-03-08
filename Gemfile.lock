@@ -24,6 +24,8 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
+    wolfram (0.2.1)
+      nokogiri (>= 1.4.3)
 
 PLATFORMS
   ruby
@@ -34,3 +36,4 @@ DEPENDENCIES
   sinatra
   slackbotsy
   unicorn
+  wolfram

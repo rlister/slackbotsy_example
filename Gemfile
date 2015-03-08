@@ -8,3 +8,4 @@ gem 'slackbotsy'
 
 ## for example scripts
 gem 'nokogiri'
+gem 'wolfram'
