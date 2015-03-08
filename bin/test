@@ -1,0 +1,4 @@
+#!/bin/sh
+
+## send messages to local deployment of botsy for testing
+curl -XPOST -F "token=${OUTGOING_TOKEN:-123}" -F "user_name=${USER}" -F "channel_name=${CHANNEL:-test}" -F "text=$*" ${URL:-http://localhost:9393}
