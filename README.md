@@ -99,4 +99,18 @@ OUTGOING_TOKEN=Vupohshohj5xeTee3ohthe6n,Cupai9viQuaexi6ohPhahrie
 
 ## Deploy to Heroku
 
-## Docker
+```sh
+$ heroku login
+$ heroku create
+Created http://mystic-wind-83.herokuapp.com/ | git@heroku.com:mystic-wind-83.git
+$ git push heroku master
+$ heroku config:set OUTGOING_TOKEN=Vupohshohj5xeTee3ohthe6n
+$ heroku config:set INCOMING_WEBHOOK=https://hooks.slack.com/services/NOQU9ISI6/YAIJIECH4/DISHEINGOHYAE6AHNG3PIEK6
+```
+
+Now create your Outgoing Webhook as described above, using your new
+herokuapp URL.
+
+## Deploy with Docker
+
+Coming soon.
