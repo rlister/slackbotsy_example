@@ -11,6 +11,7 @@ with your new ruby bot.
 
 ```sh
 $ git clone https://github.com/rlister/slackbotsy_example.git
+$ cd slackbotsy_example
 $ bundle install
 ```
 
