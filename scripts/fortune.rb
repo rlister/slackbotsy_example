@@ -16,7 +16,7 @@ hear /\b(futurama|bender|zoidberg|farnsworth|leela)\b/i do
   fortune :futurama
 end
 
-hear /\bzippy\b/i do
+hear /\b(zippy|drunk)\b/i do
   fortune :zippy
 end
 
